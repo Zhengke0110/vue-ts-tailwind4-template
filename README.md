@@ -1,5 +1,68 @@
-# Vue 3 + TypeScript + Vite
+# Vue TypeScript Tailwind Template
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern Vue.js template with TypeScript and Tailwind CSS 4.x integration.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- Vue 3
+- TypeScript
+- Tailwind CSS 4.x
+- Vue Router
+- ESLint + Prettier
+- Vite for fast development and building
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone [your-repository-url]
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start development server
+npm run dev
+# or
+yarn dev
+```
+
+## Project Structure
+
+```
+vue-ts-tailwind4-template/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── router/
+│   ├── views/
+│   ├── App.vue
+│   └── main.ts
+├── .eslintrc.js
+├── .prettierrc
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Lint and fix files
+- `npm run preview` - Preview production build
+
+## License
+
+[MIT License](LICENSE)
