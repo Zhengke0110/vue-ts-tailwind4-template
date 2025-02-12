@@ -21,6 +21,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.305",
     "@iconify/tailwind4": "^1.0.3",
+    "@types/node": "^22.13.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "prettier": "^3.5.0",
