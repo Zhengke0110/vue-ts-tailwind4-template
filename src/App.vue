@@ -12,6 +12,7 @@ const increment = () => {
   <div class="container mx-auto p-4">
     <!-- 根据设备类型显示不同的内容 -->
     <p class="mb-4 text-center text-gray-600">
+      <span class="icon-[mdi-light--home] size-5"></span>
       当前设备类型:
       <span v-if="deviceType.isMobile">移动端</span>
       <span v-else-if="deviceType.isTablet">平板</span>

@@ -1,5 +1,6 @@
 {
   "name": "vue-ts-tailwind4-template",
+  "description": "Vue 3 + TypeScript + Tailwind CSS + Vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +16,8 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.305",
+    "@iconify/tailwind4": "^1.0.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "prettier": "^3.5.0",
