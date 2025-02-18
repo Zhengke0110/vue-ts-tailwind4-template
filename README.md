@@ -22,7 +22,7 @@ A modern Vue.js template with TypeScript and Tailwind CSS 4.x integration.
 
 ```bash
 # Clone the repository
-git clone [your-repository-url]
+git clone https://github.com/Zhengke0110/vue-ts-tailwind4-template.git
 
 # Install dependencies
 npm install
